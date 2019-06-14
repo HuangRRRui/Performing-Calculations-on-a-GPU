@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B15F51C22B34C4600C41C28 /* add.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5B15F51B22B34C4600C41C28 /* add.metal */; };
+		5B15F51F22B3824500C41C28 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B15F51E22B3824500C41C28 /* Metal.framework */; };
 		5BE607CA22B24885003879F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE607C922B24885003879F6 /* AppDelegate.swift */; };
 		5BE607CC22B24885003879F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE607CB22B24885003879F6 /* ViewController.swift */; };
 		5BE607CF22B24885003879F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE607CD22B24885003879F6 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B15F51B22B34C4600C41C28 /* add.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = add.metal; sourceTree = "<group>"; };
+		5B15F51E22B3824500C41C28 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		5BE607C622B24884003879F6 /* MetalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE607C922B24885003879F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BE607CB22B24885003879F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B15F51F22B3824500C41C28 /* Metal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B15F51D22B3824500C41C28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B15F51E22B3824500C41C28 /* Metal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5BE607BD22B24884003879F6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +96,7 @@
 				5BE607E022B24885003879F6 /* MetalTestTests */,
 				5BE607EB22B24885003879F6 /* MetalTestUITests */,
 				5BE607C722B24884003879F6 /* Products */,
+				5B15F51D22B3824500C41C28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +120,7 @@
 				5BE607D522B24885003879F6 /* LaunchScreen.storyboard */,
 				5BE607D822B24885003879F6 /* Info.plist */,
 				5BE607D022B24885003879F6 /* MetalTest.xcdatamodeld */,
+				5B15F51B22B34C4600C41C28 /* add.metal */,
 			);
 			path = MetalTest;
 			sourceTree = "<group>";
@@ -262,6 +277,7 @@
 				5BE607CC22B24885003879F6 /* ViewController.swift in Sources */,
 				5BE607CA22B24885003879F6 /* AppDelegate.swift in Sources */,
 				5BE607D222B24885003879F6 /* MetalTest.xcdatamodeld in Sources */,
+				5B15F51C22B34C4600C41C28 /* add.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
