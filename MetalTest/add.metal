@@ -16,5 +16,5 @@ kernel void add_arrays(device const int* inA,
 {
     // the for-loop is replaced with a collection of threads, each of which
     // calls this function.
-    result[index] = inA[index] + inB[index];
+    result[index] = inA[index] - inB[index];
 }
